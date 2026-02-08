@@ -1,2 +1,3 @@
-# hydra-argocd
-Kubernetes manifests for bootstrapping ArgoCD
+# Hydra: Bootstrap
+
+Kubernetes manifests for bootstrapping ArgoCD.
