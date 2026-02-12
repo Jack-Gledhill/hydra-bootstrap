@@ -3,7 +3,12 @@ kind: Kustomization
 namespace: argocd
 resources:
   - namespace.yml
-  - https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+  - config-maps.yml
+  - secrets.yml
+  - rbac.yml
+  - deployments.yml
+  - services.yml
+  - network-policies.yml
   - ingress.yml
 
 patches:
