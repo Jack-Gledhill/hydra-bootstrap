@@ -2,4 +2,11 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
   - infrastructure.yml
+  - jetstack.yml
+  - cloudnative-pg.yml
+  - prometheus-community.yml
+  - metallb.yml
+  - nfs-csi.yml
+  - stakater.yml
+  - sealed-secrets.yml
 #  - apps.yml

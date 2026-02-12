@@ -9,6 +9,13 @@ spec:
   description: Core components that enhance the functionality and reliability of the cluster.
   sourceRepos:
     - https://github.com/Jack-Gledhill/hydra-infra.git
+    - https://cloudnative-pg.github.io/charts
+    - quay.io/jetstack
+    - https://metallb.github.io/metallb
+    - https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/master/charts
+    - https://prometheus-community.github.io/helm-charts
+    - https://bitnami-labs.github.io/sealed-secrets
+    - https://stakater.github.io/stakater-charts
   destinations:
     - server: https://kubernetes.default.svc
       namespace: "*"
