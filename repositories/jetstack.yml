@@ -9,4 +9,4 @@ stringData:
   type: helm
   name: jetstack
   url: quay.io/jetstack
-  enableOCI: true
+  enableOCI: "true"
