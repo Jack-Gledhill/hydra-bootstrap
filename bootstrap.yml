@@ -17,4 +17,4 @@
         force: true
 
     - name: Apply the Kustomization
-      ansible.builtin.command: kubectl apply --server-side --force-conflicts -k /tmp/bootstrap
+      ansible.builtin.command: kubectl apply --server-side --force-conflicts -k /tmp/bootstrap/{{ bootstrap.path }}

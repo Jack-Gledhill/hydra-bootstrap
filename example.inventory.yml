@@ -13,6 +13,7 @@ all:
 
     bootstrap:
       repo: https://github.com/Jack-Gledhill/hydra-bootstrap
+      path: bootstrap
       version: bootstrap # Can be HEAD, a branch name or a tag name
 
   hosts:
